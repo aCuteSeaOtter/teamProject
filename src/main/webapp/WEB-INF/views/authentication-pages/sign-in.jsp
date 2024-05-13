@@ -32,21 +32,24 @@
         <div class="authentication-content">
           <div class="log-in">
             <div class="sign-in-form-wrap w-form">
-              <form id="wf-form-Register-Email-Form" name="wf-form-Register-Email-Form" data-name="Register Email Form" method="get" class="sign-in-form" data-wf-page-id="6634a93befaafa41dc30c188" data-wf-element-id="d7edf9eb-6d83-af9a-64b5-f9fc971d2db7">
+              <form id="wf-form-Register-Email-Form" name="wf-form-Register-Email-Form" data-name="Register Email Form" method="post" action="../user-pages/login.do" class="sign-in-form" data-wf-page-id="6634a93befaafa41dc30c188" data-wf-element-id="d7edf9eb-6d83-af9a-64b5-f9fc971d2db7">
                 <div class="sign-in-form-content-wrap">
                   <h3 class="sign-in-title">sign in to Zastock</h3>
                   <div class="sign-in-alternative">
-                    <div class="alternative-details">Don’t have an account? <a href="../authentication-pages/sign-up.html" class="alternative-link">Sign Up</a>
+                    <div class="alternative-details">Don’t have an account? <a href="sign-up.do" class="alternative-link">Sign Up</a>
                     </div>
                   </div>
                 </div>
                 <div class="sign-in-single-fields">
-                  <div class="sign-in-single-field-wrap"><label for="your-email" class="sign-in-field-label">your email</label><input class="sign-in-field w-input" maxlength="256" name="your-email" data-name="Your Email" placeholder="info.eltonmasakadza@gmail.com" type="email" id="your-email" required=""></div>
-                  <div class="sign-in-single-field-wrap"><label for="your-password" class="sign-in-field-label">your password</label><input class="sign-in-field w-input" maxlength="256" name="your-password" data-name="Your Password" placeholder="**************" type="password" id="your-password" required=""></div>
+                  <div class="sign-in-single-field-wrap"><label for="your-email" class="sign-in-field-label">your email</label>
+                  <input class="sign-in-field w-input" maxlength="256" name="userEmail" data-name="Your Email" placeholder="info.eltonmasakadza@gmail.com" type="email" id="your-email" required=""></div>
+                  <div class="sign-in-single-field-wrap"><label for="your-password" class="sign-in-field-label">your password</label>
+                  <input class="sign-in-field w-input" maxlength="256" name="userPassword" data-name="Your Password" placeholder="**************" type="password" id="your-password" pattern="[A-Za-z1-9]{4,15}" required=""></div>
                   <div class="sign-in-single-field-wrap flex"><label class="w-checkbox sign-in-checkbox-wrap">
-                      <div class="w-checkbox-input w-checkbox-input--inputType-custom sign-in-checkbox"></div><input type="checkbox" name="checkbox" id="checkbox" data-name="Checkbox" style="opacity:0;position:absolute;z-index:-1"><span class="sign-in-checkbox-label w-form-label" for="checkbox">Remember Password</span>
+                      <div class="w-checkbox-input w-checkbox-input--inputType-custom sign-in-checkbox"></div>
+                      <input type="checkbox" name="checkbox" id="checkbox" data-name="Checkbox" style="opacity:0;position:absolute;z-index:-1"><span class="sign-in-checkbox-label w-form-label" for="checkbox">Remember Password</span>
                     </label>
-                    <a href="../authentication-pages/forgot-password.html" class="sign-in-text-link">remember password?</a>
+                    <a href="forgot-password.do" class="sign-in-text-link">forgot password?</a>
                   </div><input type="submit" data-wait="Please wait..." class="sign-in-submit-button w-button" value="Sign In">
                   <div class="sign-in-or-wrap">
                     <div class="or-border"></div>

@@ -17,8 +17,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Unbounded:regular,500,600,700"]  }});</script>
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="/teamProject/resources/images/favicon.png" rel="shortcut icon" type="/teamProject/resources/image/x-icon">
+  <link href="/teamProject/resources/images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="/teamProject/resources/images/webclip.png" rel="apple-touch-icon">
+  <link href="./resources/css/styles.css" rel="stylesheet" />
+  
+  
+  
+  
+  
+  
+  
 </head>
 <body>
   <div class="preloader-wrapper">
@@ -31,37 +39,48 @@
       <div class="container">
         <div class="navbar-wrapper">
           <div class="split-contant navbar-left">
-            <a href="index.html" class="navbar-logo-wrap w-nav-brand"><img src="/teamProject/resources/images/navbar-icon.svg" loading="lazy" alt="" class="navbar-logo"></a>
+            <a href="index.do" class="navbar-logo-wrap w-nav-brand"><img src="/teamProject/resources/images/navbar-icon.svg" loading="lazy" alt="" class="navbar-logo"></a>
           </div>
           <div class="split-contant navbar-middle">
             <nav role="navigation" class="nav-menu-wrapper w-nav-menu">
               <div class="nav-menu-links-wrapper">
-                <div data-hover="true" data-delay="0" class="nav-dropdown home w-dropdown">
-                  <div class="single-nav-link dropdown w-dropdown-toggle">
-                    <div>Home</div>
-                    <div class="dropdown-icon"></div>
-                  </div>
-                  <nav class="nav-dropdown-list w-dropdown-list">
-                    <div class="home-dropdown-links-wrap-2">
-                      <div class="page-dropdown-list-wrap">
-                        <div class="dropdown-grid-2">
-                          <a href="home-pages/home-01.html" class="dropdown-nav-link w-inline-block">
-                            <div>Home 01</div>
-                          </a>
-                          <a href="home-pages/home-02.html" class="dropdown-nav-link w-inline-block">
-                            <div>Home 02</div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </nav>
-                </div>
-                <a href="about-us.html" class="nav-single-link w-inline-block">
+                
+                <a href="home-pages/home-01.do" class="nav-single-link w-inline-block">
+                  <div>Home</div>
+                </a>
+                
+                <a href="about-us.do" class="nav-single-link w-inline-block">
                   <div>About</div>
                 </a>
-                <a href="blog.html" aria-current="page" class="nav-single-link w-inline-block w--current">
-                  <div>Blog</div>
-                </a>
+                
+                <div data-hover="true" data-delay="0" class="nav-dropdown home w-dropdown">
+                	<div class="single-nav-link dropdown w-dropdown-toggle">
+               	 		<div>커뮤니티</div>
+               			<div class="dropdown-icon"></div>
+                	</div>
+                
+	                <nav class="nav-dropdown-list w-dropdown-list">
+	                	<div class="home-dropdown-links-wrap-2">
+	                		<div class="page-dropdown-list-wrap">
+		                		<div class="dropdown-grid-2">
+					                <a href="blog.do" class="dropdown-nav-link w-inline-block">
+                                  	  <div>공지사항</div>
+                                	</a>
+					                <a href="freeBoard.do" class="dropdown-nav-link w-inline-block">
+					                  <div>자유게시판</div>
+					                </a>
+					                <a href="question.do" class="dropdown-nav-link w-inline-block">
+					                  <div>1:1문의</div>
+					                </a>
+					                <a href="photoGetBoardList.do" class="dropdown-nav-link w-inline-block">
+					                  <div>사진공유</div>
+					                </a>
+				                </div>
+			                </div>
+		                </div>
+	                </nav>
+                </div>
+                
                 <div data-hover="true" data-delay="0" class="nav-dropdown pages w-dropdown">
                   <div class="single-nav-link pages-toggle w-dropdown-toggle">
                     <div>Pages</div>
@@ -75,25 +94,25 @@
                             <h2 class="nav-link-tittle">Menu</h2>
                             <div class="page-dropdown-list-flex-wrap">
                               <div class="dropdown-list-wrapper">
-                                <a href="home-pages/home-01.html" class="dropdown-nav-link w-inline-block">
+                                <a href="home-pages/home-01.do" class="dropdown-nav-link w-inline-block">
                                   <div>Home 01</div>
                                 </a>
-                                <a href="home-pages/home-02.html" class="dropdown-nav-link w-inline-block">
+                                <a href="home-pages/home-02.do" class="dropdown-nav-link w-inline-block">
                                   <div>Home 02</div>
                                 </a>
-                                <a href="about-us.html" class="dropdown-nav-link w-inline-block">
+                                <a href="about-us.do" class="dropdown-nav-link w-inline-block">
                                   <div>About Us</div>
                                 </a>
-                                <a href="upload-a-collection.html" class="dropdown-nav-link w-inline-block">
+                                <a href="upload-a-collection.do" class="dropdown-nav-link w-inline-block">
                                   <div>Upload Collections</div>
                                 </a>
-                                <a href="become-an-author.html" class="dropdown-nav-link w-inline-block">
+                                <a href="become-an-author.do" class="dropdown-nav-link w-inline-block">
                                   <div>Become An Author</div>
                                 </a>
-                                <a href="contact-us.html" class="dropdown-nav-link w-inline-block">
+                                <a href="contact-us.do" class="dropdown-nav-link w-inline-block">
                                   <div>Contact Us</div>
                                 </a>
-                                <a href="blog.html" aria-current="page" class="dropdown-nav-link w-inline-block w--current">
+                                <a href="blog.do" aria-current="page" class="dropdown-nav-link w-inline-block w--current">
                                   <div>Blog</div>
                                 </a>
                                 <a href="https://zastock.webflow.io/blog/the-benefits-of-stock-photography-marketplaces" class="dropdown-nav-link flex w-inline-block">
@@ -105,7 +124,7 @@
                                 </a>
                               </div>
                               <div class="dropdown-list-wrapper">
-                                <a href="author.html" class="dropdown-nav-link w-inline-block">
+                                <a href="author.do" class="dropdown-nav-link w-inline-block">
                                   <div>Author</div>
                                 </a>
                                 <a href="https://zastock.webflow.io/author/alex-anderson" class="dropdown-nav-link flex w-inline-block">
@@ -115,7 +134,7 @@
                                     <div class="cms-text">CMS</div>
                                   </div>
                                 </a>
-                                <a href="product.html" class="dropdown-nav-link w-inline-block">
+                                <a href="product.do" class="dropdown-nav-link w-inline-block">
                                   <div>Products</div>
                                 </a>
                                 <a href="https://zastock.webflow.io/product/franklin-sterling" class="dropdown-nav-link flex w-inline-block">
@@ -125,16 +144,16 @@
                                     <div class="cms-text">CMS</div>
                                   </div>
                                 </a>
-                                <a href="authentication-pages/sign-in.html" class="dropdown-nav-link w-inline-block">
+                                <a href="authentication-pages/sign-in.do" class="dropdown-nav-link w-inline-block">
                                   <div>Sign In</div>
                                 </a>
-                                <a href="authentication-pages/sign-up.html" class="dropdown-nav-link w-inline-block">
+                                <a href="authentication-pages/sign-up.do" class="dropdown-nav-link w-inline-block">
                                   <div>Sign Up</div>
                                 </a>
-                                <a href="authentication-pages/forgot-password.html" class="dropdown-nav-link w-inline-block">
+                                <a href="authentication-pages/forgot-password.do" class="dropdown-nav-link w-inline-block">
                                   <div>Forgot Password</div>
                                 </a>
-                                <a href="authentication-pages/reset-password.html" class="dropdown-nav-link w-inline-block">
+                                <a href="authentication-pages/reset-password.do" class="dropdown-nav-link w-inline-block">
                                   <div>Reset Password</div>
                                 </a>
                               </div>
@@ -143,19 +162,19 @@
                           <div class="pages-dropdown-single-links-wrap">
                             <h2 class="nav-link-tittle">Utility Pages</h2>
                             <div class="dropdown-list-wrapper">
-                              <a href="404.html" class="dropdown-nav-link w-inline-block">
+                              <a href="404.do" class="dropdown-nav-link w-inline-block">
                                 <div>404 Not Found</div>
                               </a>
-                              <a href="401.html" class="dropdown-nav-link w-inline-block">
+                              <a href="401.do" class="dropdown-nav-link w-inline-block">
                                 <div>Password Protected</div>
                               </a>
-                              <a href="utility-pages/changelog.html" class="dropdown-nav-link w-inline-block">
+                              <a href="utility-pages/changelog.do" class="dropdown-nav-link w-inline-block">
                                 <div>Changelog</div>
                               </a>
-                              <a href="utility-pages/license.html" class="dropdown-nav-link w-inline-block">
+                              <a href="utility-pages/license.do" class="dropdown-nav-link w-inline-block">
                                 <div>License</div>
                               </a>
-                              <a href="utility-pages/style-guide.html" class="dropdown-nav-link w-inline-block">
+                              <a href="utility-pages/style-guide.do" class="dropdown-nav-link w-inline-block">
                                 <div>Style Guide</div>
                               </a>
                               <a href="https://webflow.com/templates/designers/flowzai" target="_blank" class="dropdown-nav-link more-template w-inline-block">
@@ -168,7 +187,7 @@
                     </div>
                   </nav>
                 </div>
-                <a href="become-an-author.html" class="inner-button mobile w-inline-block">
+                <a href="become-an-author.do" class="inner-button mobile w-inline-block">
                   <div>Become An Author</div>
                   <div class="inner-button-bg"></div>
                 </a>
@@ -230,7 +249,7 @@
                               <div>Pay with browser.</div>
                             </a>
                           </div>
-                          <a href="checkout.html" value="Continue to Checkout" class="w-commerce-commercecartcheckoutbutton submit-button primary-color-1" data-loading-text="Hang Tight..." data-node-type="cart-checkout-button">Continue to Checkout</a>
+                          <a href="checkout.do" value="Continue to Checkout" class="w-commerce-commercecartcheckoutbutton submit-button primary-color-1" data-loading-text="Hang Tight..." data-node-type="cart-checkout-button">Continue to Checkout</a>
                         </div>
                       </div>
                     </form>
@@ -244,7 +263,7 @@
                 </div>
               </div>
             </div>
-            <a href="become-an-author.html" class="inner-button desktop w-inline-block">
+            <a href="become-an-author.do" class="inner-button desktop w-inline-block">
               <div>Become An Author</div>
               <div class="inner-button-bg"></div>
             </a>
@@ -261,232 +280,72 @@
     <section class="section inner-banner">
       <div class="container">
         <div class="inner-banner-wrapper">
-          <h2 class="inner-banner-title">Blog</h2>
+          <h2 class="inner-banner-title">공지사항</h2>
           <div class="breadcrumb-wrapper">
-            <a href="home-pages/home-01.html" class="single-breadcrumb-link w-inline-block">
+            <a href="home-pages/home-01.do" class="single-breadcrumb-link w-inline-block">
               <div>Home</div>
             </a>
             <div class="single-breadcrumb-link">/</div>
-            <a href="blog.html" aria-current="page" class="single-breadcrumb-link w-inline-block w--current">
+            <a href="blog.do" aria-current="page" class="single-breadcrumb-link w-inline-block w--current">
               <div>Blog</div>
             </a>
           </div>
         </div>
       </div>
     </section>
-    <section class="section blogs">
-      <div class="container">
-        <div data-w-id="27d301f9-b01c-8ad9-e7a5-0cc2e23041c0" style="opacity:0" class="blog-collection-wrapper">
-          <div class="w-dyn-list">
-            <div role="list" class="blog-post-collection-grid w-dyn-items">
-              <div role="listitem" class="w-dyn-item">
-                <div class="blog-post-single-wrapper">
-                  <a href="#" class="blog-post-image-link w-inline-block"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="blog-post-img w-dyn-bind-empty"></a>
-                  <div class="blog-relative-wrapper">
-                    <div class="blog-post-contant">
-                      <div class="blog-post-categories-date-wrap">
-                        <div class="blog-post-categories-name w-dyn-bind-empty"></div>
-                        <div class="blog-post-date natural-color-100 w-dyn-bind-empty"></div>
-                      </div>
-                      <a href="#" class="blog-post-title-link w-inline-block">
-                        <h3 class="blog-post-title natural-color-100 w-dyn-bind-empty"></h3>
-                      </a>
-                    </div>
-                    <div class="blog-divider"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="w-dyn-empty">
-              <div>No items found.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+ 
     <section class="section faq">
-      <div class="container">
-        <div class="section-title-wrapper">
-          <div class="faq-title-wrap">
-            <div data-w-id="bd2dc54b-e2f9-a9b3-a9ce-eefe9983c589" class="section-mini-title">FAQ</div>
-            <h2 data-w-id="bd2dc54b-e2f9-a9b3-a9ce-eefe9983c58b" class="section-title">Frequently Asked Questions</h2>
-          </div>
-          <div data-w-id="bd2dc54b-e2f9-a9b3-a9ce-eefe9983c58d" class="section-divider"></div>
-        </div>
-        <div class="faq-content">
-          <div class="w-layout-grid faq-grid">
-            <div id="w-node-bd2dc54b-e2f9-a9b3-a9ce-eefe9983c590-9983c585" class="faq-wrapper">
-              <div data-hover="false" data-delay="500" class="faq-single-accordion-wrap w-dropdown">
-                <div class="faq-accordion-link w-dropdown-toggle">
-                  <div class="faq-accordion-title-wrap">
-                    <div class="faq-accordion-title">1. What sets zastock apart from others?</div>
-                    <div class="faq-icon-wrap">
-                      <div class="faq-icon-flex">
-                        <div class="faq-arrow"></div>
-                      </div>
+    	<main>
+                   <div class="container-fluid px-4">
+                   		
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <i class="fas fa-table me-1"></i>
+                                공지사항
+                            </div>
+                            <div class="card-body">
+                        
+                                <table id="datatablesSimple">
+                                    <thead>
+                                        <tr>
+                                            <th>번호</th>
+                                            <th>제목</th>
+                                            <th>기입일자</th>
+                                            
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>번호</th>
+                                            <th>제목</th>
+                                            <th>기입일자</th>
+                                            
+                                            
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                    	<tr>
+                                       		<td>1</td>
+                                            <td>3/13(목)공지사항</td>
+                                            <td>2024-03-12</td>
+                                            
+                                            
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <nav class="faq-accordion-ans-wrap w-dropdown-list">
-                  <div class="faq-accordion-content-wrap">
-                    <p class="faq-accordion-ans">A standout marketplace typically offers a wide range of high-quality images covering diverse themes, styles, and subjects. This ensures that users can find precisely what they need.</p>
-                  </div>
-                </nav>
-              </div>
-              <div data-hover="false" data-delay="500" class="faq-single-accordion-wrap w-dropdown">
-                <div class="faq-accordion-link w-dropdown-toggle">
-                  <div class="faq-accordion-title-wrap">
-                    <div class="faq-accordion-title">2. How do I find images on your platform?</div>
-                    <div class="faq-icon-wrap">
-                      <div class="faq-icon-flex">
-                        <div class="faq-arrow"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <nav class="faq-accordion-ans-wrap w-dropdown-list">
-                  <div class="faq-accordion-content-wrap">
-                    <p class="faq-accordion-ans">A standout marketplace typically offers a wide range of high-quality images covering diverse themes, styles, and subjects. This ensures that users can find precisely what they need.</p>
-                  </div>
-                </nav>
-              </div>
-              <div data-hover="false" data-delay="500" class="faq-single-accordion-wrap w-dropdown">
-                <div class="faq-accordion-link w-dropdown-toggle">
-                  <div class="faq-accordion-title-wrap">
-                    <div class="faq-accordion-title">3. Do you offer exclusive images?</div>
-                    <div class="faq-icon-wrap">
-                      <div class="faq-icon-flex">
-                        <div class="faq-arrow"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <nav class="faq-accordion-ans-wrap w-dropdown-list">
-                  <div class="faq-accordion-content-wrap">
-                    <p class="faq-accordion-ans">A standout marketplace typically offers a wide range of high-quality images covering diverse themes, styles, and subjects. This ensures that users can find precisely what they need.</p>
-                  </div>
-                </nav>
-              </div>
-              <div data-hover="false" data-delay="500" class="faq-single-accordion-wrap w-dropdown">
-                <div class="faq-accordion-link w-dropdown-toggle">
-                  <div class="faq-accordion-title-wrap">
-                    <div class="faq-accordion-title">4. What types of licenses do you offer?</div>
-                    <div class="faq-icon-wrap">
-                      <div class="faq-icon-flex">
-                        <div class="faq-arrow"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <nav class="faq-accordion-ans-wrap w-dropdown-list">
-                  <div class="faq-accordion-content-wrap">
-                    <p class="faq-accordion-ans">A standout marketplace typically offers a wide range of high-quality images covering diverse themes, styles, and subjects. This ensures that users can find precisely what they need.</p>
-                  </div>
-                </nav>
-              </div>
-            </div>
-            <div id="w-node-bd2dc54b-e2f9-a9b3-a9ce-eefe9983c5c5-9983c585" class="faq-wrapper">
-              <div data-hover="false" data-delay="500" class="faq-single-accordion-wrap w-dropdown">
-                <div class="faq-accordion-link w-dropdown-toggle">
-                  <div class="faq-accordion-title-wrap">
-                    <div class="faq-accordion-title">5. Can I sell my photos on your platform?</div>
-                    <div class="faq-icon-wrap">
-                      <div class="faq-icon-flex">
-                        <div class="faq-arrow"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <nav class="faq-accordion-ans-wrap w-dropdown-list">
-                  <div class="faq-accordion-content-wrap">
-                    <p class="faq-accordion-ans">A standout marketplace typically offers a wide range of high-quality images covering diverse themes, styles, and subjects. This ensures that users can find precisely what they need.</p>
-                  </div>
-                </nav>
-              </div>
-              <div data-hover="false" data-delay="500" class="faq-single-accordion-wrap w-dropdown">
-                <div class="faq-accordion-link w-dropdown-toggle">
-                  <div class="faq-accordion-title-wrap">
-                    <div class="faq-accordion-title">6. What if I need support?</div>
-                    <div class="faq-icon-wrap">
-                      <div class="faq-icon-flex">
-                        <div class="faq-arrow"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <nav class="faq-accordion-ans-wrap w-dropdown-list">
-                  <div class="faq-accordion-content-wrap">
-                    <p class="faq-accordion-ans">A standout marketplace typically offers a wide range of high-quality images covering diverse themes, styles, and subjects. This ensures that users can find precisely what they need.</p>
-                  </div>
-                </nav>
-              </div>
-              <div data-hover="false" data-delay="500" class="faq-single-accordion-wrap w-dropdown">
-                <div class="faq-accordion-link w-dropdown-toggle">
-                  <div class="faq-accordion-title-wrap">
-                    <div class="faq-accordion-title">7. What file formats are available?</div>
-                    <div class="faq-icon-wrap">
-                      <div class="faq-icon-flex">
-                        <div class="faq-arrow"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <nav class="faq-accordion-ans-wrap w-dropdown-list">
-                  <div class="faq-accordion-content-wrap">
-                    <p class="faq-accordion-ans">A standout marketplace typically offers a wide range of high-quality images covering diverse themes, styles, and subjects. This ensures that users can find precisely what they need.</p>
-                  </div>
-                </nav>
-              </div>
-              <div data-hover="false" data-delay="500" class="faq-single-accordion-wrap w-dropdown">
-                <div class="faq-accordion-link w-dropdown-toggle">
-                  <div class="faq-accordion-title-wrap">
-                    <div class="faq-accordion-title">8. Can I use for commercial purposes?</div>
-                    <div class="faq-icon-wrap">
-                      <div class="faq-icon-flex">
-                        <div class="faq-arrow"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <nav class="faq-accordion-ans-wrap w-dropdown-list">
-                  <div class="faq-accordion-content-wrap">
-                    <p class="faq-accordion-ans">A standout marketplace typically offers a wide range of high-quality images covering diverse themes, styles, and subjects. This ensures that users can find precisely what they need.</p>
-                  </div>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+                </main>
+      
     </section>
-    <div class="section cta">
-      <div class="container">
-        <div class="cta-wrapper">
-          <div class="cta-card inner">
-            <div class="cta-card-contant center">
-              <h3 data-w-id="f9ed5e5b-6d17-8dd9-9b5a-9668647290b4" class="cta-title natural-color-800">Subscribe To Our Newsletter</h3>
-              <p data-w-id="f9ed5e5b-6d17-8dd9-9b5a-9668647290b6" class="cta-details natural-color-500">Subscribe to our newsletter and stay informed with the latest updates, exclusive offers, and insightful content delivered straight to your inbox. Don&#x27;t miss out – join our community today and be the first to know!&quot;</p>
-              <div data-w-id="f9ed5e5b-6d17-8dd9-9b5a-9668647290b8" class="cta-from-wrap">
-                <div class="cta-from-block w-form">
-                  <form id="wf-form-Cta-Email-From" name="wf-form-Cta-Email-From" data-name="Cta Email From" method="get" class="cta-from" data-wf-page-id="6634a93befaafa41dc30c14e" data-wf-element-id="f9ed5e5b-6d17-8dd9-9b5a-9668647290ba"><input class="input cta inner w-input" maxlength="256" name="Cta-Email-2" data-name="Cta Email 2" placeholder="Enter your email address" type="email" id="Cta-Email-2" required=""><input type="submit" data-wait="Please wait..." class="submit-button primary-color-1 w-button" value="Browse All Articles"></form>
-                  <div class="w-form-done">
-                    <div>Thank you! Your submission has been received!</div>
-                  </div>
-                  <div class="w-form-fail">
-                    <div>Oops! Something went wrong while submitting the form.</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
     <div class="section footer">
       <div class="container">
         <div class="footer-top">
           <div data-w-id="35101c2c-ff7c-f7b3-9aa9-ac2f2b9443a0" class="footer-details-wrap">
-            <a href="index.html" class="footer-logo-wrap w-inline-block"><img src="/teamProject/resources/images/footer-logo.svg" loading="lazy" alt="" class="footer-logo"></a>
+            <a href="index.do" class="footer-logo-wrap w-inline-block"><img src="/teamProject/resources/images/footer-logo.svg" loading="lazy" alt="" class="footer-logo"></a>
             <p class="footer-details">Zastock is a place where you could buy some of the photos I have taken over the years.</p>
             <div class="footer-social-media-wrap">
               <a href="https://www.facebook.com/" target="_blank" class="footer-social-link w-inline-block">
@@ -507,22 +366,22 @@
             <h4 class="footer-links-title">Useful Links</h4>
             <div class="footer-links-flex-wrap">
               <div class="single-footer-links-flex-wrap">
-                <a href="home-pages/home-01.html" class="single-footer-link w-inline-block">
+                <a href="home-pages/home-01.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Home 01</div>
                 </a>
-                <a href="home-pages/home-02.html" class="single-footer-link w-inline-block">
+                <a href="home-pages/home-02.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Home 02</div>
                 </a>
-                <a href="about-us.html" class="single-footer-link w-inline-block">
+                <a href="about-us.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">About Us</div>
                 </a>
-                <a href="upload-a-collection.html" class="single-footer-link w-inline-block">
+                <a href="upload-a-collection.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Upload Collections</div>
                 </a>
-                <a href="become-an-author.html" class="single-footer-link w-inline-block">
+                <a href="become-an-author.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Become An Author</div>
                 </a>
-                <a href="blog.html" aria-current="page" class="single-footer-link w-inline-block w--current">
+                <a href="blog.do" aria-current="page" class="single-footer-link w-inline-block w--current">
                   <div class="footer-link-text">Blog</div>
                 </a>
               </div>
@@ -530,10 +389,10 @@
                 <a href="https://zastock.webflow.io/blog/the-benefits-of-stock-photography-marketplaces" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Blog Single</div>
                 </a>
-                <a href="author.html" class="single-footer-link w-inline-block">
+                <a href="author.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Author</div>
                 </a>
-                <a href="product.html" class="single-footer-link w-inline-block">
+                <a href="product.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Products</div>
                 </a>
                 <a href="https://zastock.webflow.io/product/franklin-sterling" class="single-footer-link w-inline-block">
@@ -542,7 +401,7 @@
                 <a href="https://zastock.webflow.io/author/alex-anderson" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Author Single</div>
                 </a>
-                <a href="contact-us.html" class="single-footer-link w-inline-block">
+                <a href="contact-us.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Contact Us</div>
                 </a>
               </div>
@@ -552,19 +411,19 @@
             <h4 class="footer-links-title">Utility Pages</h4>
             <div class="footer-links-flex-wrap">
               <div class="single-footer-links-flex-wrap">
-                <a href="utility-pages/style-guide.html" class="single-footer-link w-inline-block">
+                <a href="utility-pages/style-guide.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Style Guide</div>
                 </a>
-                <a href="401.html" class="single-footer-link w-inline-block">
+                <a href="401.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Protected Password</div>
                 </a>
-                <a href="404.html" class="single-footer-link w-inline-block">
+                <a href="404.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">404 Not Found</div>
                 </a>
-                <a href="utility-pages/license.html" class="single-footer-link w-inline-block">
+                <a href="utility-pages/license.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Licenses</div>
                 </a>
-                <a href="utility-pages/changelog.html" class="single-footer-link w-inline-block">
+                <a href="utility-pages/changelog.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Changelog</div>
                 </a>
               </div>
@@ -573,7 +432,7 @@
         </div>
         <div class="footer-bottom">
           <div data-w-id="35101c2c-ff7c-f7b3-9aa9-ac2f2b9443ee" class="footer-copyright-wrap">
-            <div class="footer-copyright">© Copyright - <a href="index.html" class="footer-source-link">Zastock</a> | Designed by <a href="https://www.flowzai.com/" target="_blank" class="footer-source-link">Flowzai </a>/ <a href="utility-pages/license.html" class="footer-source-link">License</a> - Powered by <a href="https://webflow.com/" target="_blank" class="footer-source-link">Webflow</a>
+            <div class="footer-copyright">© Copyright - <a href="index.do" class="footer-source-link">Zastock</a> | Designed by <a href="https://www.flowzai.com/" target="_blank" class="footer-source-link">Flowzai </a>/ <a href="utility-pages/license.do" class="footer-source-link">License</a> - Powered by <a href="https://webflow.com/" target="_blank" class="footer-source-link">Webflow</a>
             </div>
           </div>
           <div data-w-id="35101c2c-ff7c-f7b3-9aa9-ac2f2b9443fc" class="footer-divider"></div>
@@ -583,5 +442,8 @@
   </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6634a93aefaafa41dc30c070" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="/teamProject/resources/js/webflow.js" type="text/javascript"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+  <script src="./resources/js/datatables-simple-demo.js"></script>
 </body>
 </html>

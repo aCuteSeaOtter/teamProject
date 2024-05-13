@@ -33,7 +33,7 @@
       <div class="container">
         <div class="navbar-wrapper">
           <div class="split-contant navbar-left">
-            <a href="/teamProject/resources/index.html" class="navbar-logo-wrap w-nav-brand"><img src="/teamProject/resources/images/navbar-icon.svg" loading="lazy" alt="" class="navbar-logo"></a>
+            <a href="index.do" class="navbar-logo-wrap w-nav-brand"><img src="/teamProject/resources/images/navbar-icon.svg" loading="lazy" alt="" class="navbar-logo"></a>
           </div>
           <div class="split-contant navbar-middle">
             <nav role="navigation" class="nav-menu-wrapper w-nav-menu">
@@ -47,10 +47,10 @@
                     <div class="home-dropdown-links-wrap-2">
                       <div class="page-dropdown-list-wrap">
                         <div class="dropdown-grid-2">
-                          <a href="/teamProject/resources/home-pages/home-01.html" class="dropdown-nav-link w-inline-block">
+                          <a href="home-pages/home-01.do" class="dropdown-nav-link w-inline-block">
                             <div>Home 01</div>
                           </a>
-                          <a href="/teamProject/resources/home-pages/home-02.html" class="dropdown-nav-link w-inline-block">
+                          <a href="home-pages/home-02.do" class="dropdown-nav-link w-inline-block">
                             <div>Home 02</div>
                           </a>
                         </div>
@@ -58,10 +58,10 @@
                     </div>
                   </nav>
                 </div>
-                <a href="/teamProject/resources/about-us.html" class="nav-single-link w-inline-block">
+                <a href="about-us.do" class="nav-single-link w-inline-block">
                   <div>About</div>
                 </a>
-                <a href="/teamProject/resources/blog.html" class="nav-single-link w-inline-block">
+                <a href="blog.do" class="nav-single-link w-inline-block">
                   <div>Blog</div>
                 </a>
                 <div data-hover="true" data-delay="0" class="nav-dropdown pages w-dropdown">
@@ -77,25 +77,25 @@
                             <h2 class="nav-link-tittle">Menu</h2>
                             <div class="page-dropdown-list-flex-wrap">
                               <div class="dropdown-list-wrapper">
-                                <a href="/teamProject/resources/home-pages/home-01.html" class="dropdown-nav-link w-inline-block">
+                                <a href="home-pages/home-01.do" class="dropdown-nav-link w-inline-block">
                                   <div>Home 01</div>
                                 </a>
-                                <a href="/teamProject/resources/home-pages/home-02.html" class="dropdown-nav-link w-inline-block">
+                                <a href="home-pages/home-02.do" class="dropdown-nav-link w-inline-block">
                                   <div>Home 02</div>
                                 </a>
-                                <a href="/teamProject/resources/about-us.html" class="dropdown-nav-link w-inline-block">
+                                <a href="about-us.do" class="dropdown-nav-link w-inline-block">
                                   <div>About Us</div>
                                 </a>
-                                <a href="/teamProject/resources/upload-a-collection.html" class="dropdown-nav-link w-inline-block">
+                                <a href="upload-a-collection.do" class="dropdown-nav-link w-inline-block">
                                   <div>Upload Collections</div>
                                 </a>
-                                <a href="/teamProject/resources/become-an-author.html" class="dropdown-nav-link w-inline-block">
+                                <a href="become-an-author.do" class="dropdown-nav-link w-inline-block">
                                   <div>Become An Author</div>
                                 </a>
-                                <a href="/teamProject/resources/contact-us.html" class="dropdown-nav-link w-inline-block">
+                                <a href="contact-us.do" class="dropdown-nav-link w-inline-block">
                                   <div>Contact Us</div>
                                 </a>
-                                <a href="/teamProject/resources/blog.html" class="dropdown-nav-link w-inline-block">
+                                <a href="blog.do" class="dropdown-nav-link w-inline-block">
                                   <div>Blog</div>
                                 </a>
                                 <a href="https://zastock.webflow.io/blog/the-benefits-of-stock-photography-marketplaces" class="dropdown-nav-link flex w-inline-block">
@@ -107,7 +107,7 @@
                                 </a>
                               </div>
                               <div class="dropdown-list-wrapper">
-                                <a href="/teamProject/resources/author.html" class="dropdown-nav-link w-inline-block">
+                                <a href="author.do" class="dropdown-nav-link w-inline-block">
                                   <div>Author</div>
                                 </a>
                                 <a href="https://zastock.webflow.io/author/alex-anderson" class="dropdown-nav-link flex w-inline-block">
@@ -117,7 +117,7 @@
                                     <div class="cms-text">CMS</div>
                                   </div>
                                 </a>
-                                <a href="/teamProject/resources/product.html" class="dropdown-nav-link w-inline-block">
+                                <a href="product.do" class="dropdown-nav-link w-inline-block">
                                   <div>Products</div>
                                 </a>
                                 <a href="https://zastock.webflow.io/product/franklin-sterling" class="dropdown-nav-link flex w-inline-block">
@@ -127,16 +127,16 @@
                                     <div class="cms-text">CMS</div>
                                   </div>
                                 </a>
-                                <a href="/teamProject/resources/authentication-pages/sign-in.html" class="dropdown-nav-link w-inline-block">
+                                <a href="authentication-pages/sign-in.do" class="dropdown-nav-link w-inline-block">
                                   <div>Sign In</div>
                                 </a>
-                                <a href="/teamProject/resources/authentication-pages/sign-up.html" class="dropdown-nav-link w-inline-block">
+                                <a href="authentication-pages/sign-up.do" class="dropdown-nav-link w-inline-block">
                                   <div>Sign Up</div>
                                 </a>
-                                <a href="/teamProject/resources/authentication-pages/forgot-password.html" class="dropdown-nav-link w-inline-block">
+                                <a href="authentication-pages/forgot-password.do" class="dropdown-nav-link w-inline-block">
                                   <div>Forgot Password</div>
                                 </a>
-                                <a href="/teamProject/resources/authentication-pages/reset-password.html" class="dropdown-nav-link w-inline-block">
+                                <a href="authentication-pages/reset-password.do" class="dropdown-nav-link w-inline-block">
                                   <div>Reset Password</div>
                                 </a>
                               </div>
@@ -145,19 +145,19 @@
                           <div class="pages-dropdown-single-links-wrap">
                             <h2 class="nav-link-tittle">Utility Pages</h2>
                             <div class="dropdown-list-wrapper">
-                              <a href="/teamProject/resources/404.html" class="dropdown-nav-link w-inline-block">
+                              <a href="404.do" class="dropdown-nav-link w-inline-block">
                                 <div>404 Not Found</div>
                               </a>
-                              <a href="/teamProject/resources/401.html" class="dropdown-nav-link w-inline-block">
+                              <a href="401.do" class="dropdown-nav-link w-inline-block">
                                 <div>Password Protected</div>
                               </a>
-                              <a href="/teamProject/resources/utility-pages/changelog.html" class="dropdown-nav-link w-inline-block">
+                              <a href="utility-pages/changelog.do" class="dropdown-nav-link w-inline-block">
                                 <div>Changelog</div>
                               </a>
-                              <a href="/teamProject/resources/utility-pages/license.html" aria-current="page" class="dropdown-nav-link w-inline-block w--current">
+                              <a href="utility-pages/license.do" aria-current="page" class="dropdown-nav-link w-inline-block w--current">
                                 <div>License</div>
                               </a>
-                              <a href="/teamProject/resources/utility-pages/style-guide.html" class="dropdown-nav-link w-inline-block">
+                              <a href="utility-pages/style-guide.do" class="dropdown-nav-link w-inline-block">
                                 <div>Style Guide</div>
                               </a>
                               <a href="https://webflow.com/templates/designers/flowzai" target="_blank" class="dropdown-nav-link more-template w-inline-block">
@@ -170,7 +170,7 @@
                     </div>
                   </nav>
                 </div>
-                <a href="/teamProject/resources/become-an-author.html" class="inner-button mobile w-inline-block">
+                <a href="become-an-author.do" class="inner-button mobile w-inline-block">
                   <div>Become An Author</div>
                   <div class="inner-button-bg"></div>
                 </a>
@@ -232,7 +232,7 @@
                               <div>Pay with browser.</div>
                             </a>
                           </div>
-                          <a href="/teamProject/resources/checkout.html" value="Continue to Checkout" class="w-commerce-commercecartcheckoutbutton submit-button primary-color-1" data-loading-text="Hang Tight..." data-node-type="cart-checkout-button">Continue to Checkout</a>
+                          <a href="checkout.do" value="Continue to Checkout" class="w-commerce-commercecartcheckoutbutton submit-button primary-color-1" data-loading-text="Hang Tight..." data-node-type="cart-checkout-button">Continue to Checkout</a>
                         </div>
                       </div>
                     </form>
@@ -246,7 +246,7 @@
                 </div>
               </div>
             </div>
-            <a href="/teamProject/resources/become-an-author.html" class="inner-button desktop w-inline-block">
+            <a href="become-an-author.do" class="inner-button desktop w-inline-block">
               <div>Become An Author</div>
               <div class="inner-button-bg"></div>
             </a>
@@ -265,11 +265,11 @@
         <div class="inner-banner-wrapper">
           <h2 class="inner-banner-title">License</h2>
           <div class="breadcrumb-wrapper">
-            <a href="/teamProject/resources/home-pages/home-01.html" class="single-breadcrumb-link w-inline-block">
+            <a href="home-pages/home-01.do" class="single-breadcrumb-link w-inline-block">
               <div>Home</div>
             </a>
             <div class="single-breadcrumb-link">/</div>
-            <a href="/teamProject/resources/utility-pages/license.html" aria-current="page" class="single-breadcrumb-link w-inline-block w--current">
+            <a href="utility-pages/license.do" aria-current="page" class="single-breadcrumb-link w-inline-block w--current">
               <div>License</div>
             </a>
           </div>
@@ -334,7 +334,7 @@
       <div class="container">
         <div class="footer-top">
           <div data-w-id="35101c2c-ff7c-f7b3-9aa9-ac2f2b9443a0" class="footer-details-wrap">
-            <a href="/teamProject/resources/index.html" class="footer-logo-wrap w-inline-block"><img src="/teamProject/resources/images/footer-logo.svg" loading="lazy" alt="" class="footer-logo"></a>
+            <a href="index.do" class="footer-logo-wrap w-inline-block"><img src="/teamProject/resources/images/footer-logo.svg" loading="lazy" alt="" class="footer-logo"></a>
             <p class="footer-details">Zastock is a place where you could buy some of the photos I have taken over the years.</p>
             <div class="footer-social-media-wrap">
               <a href="https://www.facebook.com/" target="_blank" class="footer-social-link w-inline-block">
@@ -355,22 +355,22 @@
             <h4 class="footer-links-title">Useful Links</h4>
             <div class="footer-links-flex-wrap">
               <div class="single-footer-links-flex-wrap">
-                <a href="/teamProject/resources/home-pages/home-01.html" class="single-footer-link w-inline-block">
+                <a href="home-pages/home-01.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Home 01</div>
                 </a>
-                <a href="/teamProject/resources/home-pages/home-02.html" class="single-footer-link w-inline-block">
+                <a href="home-pages/home-02.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Home 02</div>
                 </a>
-                <a href="/teamProject/resources/about-us.html" class="single-footer-link w-inline-block">
+                <a href="about-us.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">About Us</div>
                 </a>
-                <a href="/teamProject/resources/upload-a-collection.html" class="single-footer-link w-inline-block">
+                <a href="upload-a-collection.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Upload Collections</div>
                 </a>
-                <a href="/teamProject/resources/become-an-author.html" class="single-footer-link w-inline-block">
+                <a href="become-an-author.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Become An Author</div>
                 </a>
-                <a href="/teamProject/resources/blog.html" class="single-footer-link w-inline-block">
+                <a href="blog.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Blog</div>
                 </a>
               </div>
@@ -378,10 +378,10 @@
                 <a href="https://zastock.webflow.io/blog/the-benefits-of-stock-photography-marketplaces" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Blog Single</div>
                 </a>
-                <a href="/teamProject/resources/author.html" class="single-footer-link w-inline-block">
+                <a href="author.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Author</div>
                 </a>
-                <a href="/teamProject/resources/product.html" class="single-footer-link w-inline-block">
+                <a href="product.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Products</div>
                 </a>
                 <a href="https://zastock.webflow.io/product/franklin-sterling" class="single-footer-link w-inline-block">
@@ -390,7 +390,7 @@
                 <a href="https://zastock.webflow.io/author/alex-anderson" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Author Single</div>
                 </a>
-                <a href="/teamProject/resources/contact-us.html" class="single-footer-link w-inline-block">
+                <a href="contact-us.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Contact Us</div>
                 </a>
               </div>
@@ -400,19 +400,19 @@
             <h4 class="footer-links-title">Utility Pages</h4>
             <div class="footer-links-flex-wrap">
               <div class="single-footer-links-flex-wrap">
-                <a href="/teamProject/resources/utility-pages/style-guide.html" class="single-footer-link w-inline-block">
+                <a href="utility-pages/style-guide.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Style Guide</div>
                 </a>
-                <a href="/teamProject/resources/401.html" class="single-footer-link w-inline-block">
+                <a href="401.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Protected Password</div>
                 </a>
-                <a href="/teamProject/resources/404.html" class="single-footer-link w-inline-block">
+                <a href="404.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">404 Not Found</div>
                 </a>
-                <a href="/teamProject/resources/utility-pages/license.html" aria-current="page" class="single-footer-link w-inline-block w--current">
+                <a href="utility-pages/license.do" aria-current="page" class="single-footer-link w-inline-block w--current">
                   <div class="footer-link-text">Licenses</div>
                 </a>
-                <a href="/teamProject/resources/utility-pages/changelog.html" class="single-footer-link w-inline-block">
+                <a href="utility-pages/changelog.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Changelog</div>
                 </a>
               </div>
@@ -421,7 +421,7 @@
         </div>
         <div class="footer-bottom">
           <div data-w-id="35101c2c-ff7c-f7b3-9aa9-ac2f2b9443ee" class="footer-copyright-wrap">
-            <div class="footer-copyright">© Copyright - <a href="/teamProject/resources/index.html" class="footer-source-link">Zastock</a> | Designed by <a href="https://www.flowzai.com/" target="_blank" class="footer-source-link">Flowzai </a>/ <a href="/teamProject/resources/utility-pages/license.html" aria-current="page" class="footer-source-link w--current">License</a> - Powered by <a href="https://webflow.com/" target="_blank" class="footer-source-link">Webflow</a>
+            <div class="footer-copyright">© Copyright - <a href="index.do" class="footer-source-link">Zastock</a> | Designed by <a href="https://www.flowzai.com/" target="_blank" class="footer-source-link">Flowzai </a>/ <a href="utility-pages/license.do" aria-current="page" class="footer-source-link w--current">License</a> - Powered by <a href="https://webflow.com/" target="_blank" class="footer-source-link">Webflow</a>
             </div>
           </div>
           <div data-w-id="35101c2c-ff7c-f7b3-9aa9-ac2f2b9443fc" class="footer-divider"></div>

@@ -32,7 +32,7 @@
         <div class="authentication-content">
           <div class="log-in">
             <div class="sign-in-form-wrap w-form">
-              <form id="wf-form-Register-Email-Form" name="wf-form-Register-Email-Form" data-name="Register Email Form" method="get" class="sign-in-form" data-wf-page-id="6634a93befaafa41dc30c16b" data-wf-element-id="9f945ac4-99d2-06b6-1532-078dacbc3d69">
+              <form id="wf-form-Register-Email-Form" name="wf-form-Register-Email-Form" data-name="Register Email Form" method="get" action="../user-pages/findPassword.do" class="sign-in-form" data-wf-page-id="6634a93befaafa41dc30c16b" data-wf-element-id="9f945ac4-99d2-06b6-1532-078dacbc3d69">
                 <div class="sign-in-form-content-wrap">
                   <h3 class="sign-in-title">Forgot Password?</h3>
                   <div class="sign-in-alternative">
@@ -41,7 +41,8 @@
                   </div>
                 </div>
                 <div class="sign-in-single-fields">
-                  <div class="sign-in-single-field-wrap"><label for="your-email" class="sign-in-field-label">your email</label><input class="sign-in-field w-input" maxlength="256" name="your-email-2" data-name="Your Email 2" placeholder="info.eltonmasakadza@gmail.com" type="email" id="your-email-2" required=""></div><input type="submit" data-wait="Please wait..." class="sign-in-submit-button w-button" value="Continue">
+                  <div class="sign-in-single-field-wrap"><label for="your-email" class="sign-in-field-label">your email</label>
+                  <input class="sign-in-field w-input" maxlength="256" name="userEmail" data-name="Your Email 2" placeholder="info.eltonmasakadza@gmail.com" type="email" id="your-email-2" required=""></div><input type="submit" data-wait="Please wait..." class="sign-in-submit-button w-button" value="Continue">
                 </div>
               </form>
               <div class="w-form-done">

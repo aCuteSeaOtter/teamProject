@@ -31,7 +31,7 @@
 <h1><a href="detail_author.do">Author Single</a></h1>
 
 <h1><a href="product.do">Products</a></h1>
-d
+
 <h1><a href="detail_product.do">Collection Single</a></h1>
 
 <h1><a href="detail_products-categories.do">Collection Categories Single</a></h1>
@@ -43,6 +43,7 @@ d
 <h1><a href="authentication-pages/forgot-password.do">Forgot Password</a></h1>
 
 <h1><a href="authentication-pages/reset-password.do">Reset Password</a></h1>
+
 
 <hr/>
 

@@ -17,7 +17,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Unbounded:regular,500,600,700"]  }});</script>
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="/teamProject/resources/images/favicon.png" rel="shortcut icon" type="/teamProject/resources/image/x-icon">
+  <link href="/teamProject/resources/images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="/teamProject/resources/images/webclip.png" rel="apple-touch-icon">
 </head>
 <body>
@@ -32,21 +32,35 @@
         <div class="authentication-content">
           <div class="log-in">
             <div class="sign-in-form-wrap w-form">
-              <form id="wf-form-Register-Email-Form" name="wf-form-Register-Email-Form" data-name="Register Email Form" method="get" class="sign-in-form" data-wf-page-id="6634a93befaafa41dc30c189" data-wf-element-id="0bf3ed0e-71f8-bd1b-a1f2-834f09bfc473">
+              <form id="wf-form-Register-Email-Form" name="wf-form-Register-Email-Form" data-name="Register Email Form" method="post" action="../user-pages/insertUser.do" class="sign-in-form" data-wf-page-id="6634a93befaafa41dc30c189" data-wf-element-id="0bf3ed0e-71f8-bd1b-a1f2-834f09bfc473">
                 <div class="sign-in-form-content-wrap">
                   <h3 class="sign-in-title">sign Up to Zastock</h3>
                   <div class="sign-in-alternative">
-                    <div class="alternative-details">Already have an account? <a href="/teamProject/resources/authentication-pages/sign-in.html" class="alternative-link">Sign In</a>
+                    <div class="alternative-details">Already have an account? <a href="sign-in.do" class="alternative-link">Sign In</a>
                     </div>
                   </div>
                 </div>
                 <div class="sign-in-single-fields">
-                  <div class="sign-in-single-field-wrap"><label for="Your-Name" class="sign-in-field-label">Your Name</label><input class="sign-in-field w-input" maxlength="256" name="Your-Name" data-name="Your Name" placeholder="masakadza" type="text" id="Your-Name" required=""></div>
-                  <div class="sign-in-single-field-wrap"><label for="your-email-2" class="sign-in-field-label">your email</label><input class="sign-in-field w-input" maxlength="256" name="your-email-2" data-name="Your Email 2" placeholder="info.eltonmasakadza@gmail.com" type="email" id="your-email-2" required=""></div>
-                  <div class="sign-in-single-field-wrap"><label for="your-password" class="sign-in-field-label">your password</label><input class="sign-in-field w-input" maxlength="256" name="your-password" data-name="Your Password" placeholder="**************" type="password" id="your-password" required=""></div>
-                  <div class="sign-in-single-field-wrap flex"><label class="w-checkbox sign-in-checkbox-wrap">
-                      <div class="w-checkbox-input w-checkbox-input--inputType-custom sign-in-checkbox"></div><input type="checkbox" name="checkbox" id="checkbox" data-name="Checkbox" style="opacity:0;position:absolute;z-index:-1"><span class="sign-in-checkbox-label w-form-label" for="checkbox">I Agree To all The <a href="#" class="terms-conditions-link">Terms &amp; Conditions</a></span>
-                    </label></div><input type="submit" data-wait="Please wait..." class="sign-in-submit-button w-button" value="Sign Up">
+	                  <!-- 이메일 -->
+	                  <div class="sign-in-single-field-wrap"><label for="your-email-2" class="sign-in-field-label">이메일</label>
+	                  <input class="sign-in-field w-input" maxlength="256" name="userEmail" data-name="Your Email 2" type="email" id="your-email-2" required=""></div>	<!-- placeholder="" -->
+	                  <!-- 비밀번호 -->
+	                  <div class="sign-in-single-field-wrap"><label for="your-password" class="sign-in-field-label">비밀번호</label>
+	                  <input class="sign-in-field w-input" maxlength="256" name="userPassword" data-name="Your Password" type="password" id="your-password" pattern="[A-Za-z1-9]{4,15}" required=""></div>
+	                  <!-- 이름 -->
+	                  <div class="sign-in-single-field-wrap"><label for="Your-Name" class="sign-in-field-label">이름</label>
+	                  <input class="sign-in-field w-input" maxlength="256" name="userName" data-name="Your Name" type="text" id="Your-Name" pattern="[가-힣]{2,5}" required=""></div>
+	                  <!-- 생년월일 8자리 -->
+	                  <div class="sign-in-single-field-wrap"><label for="Your-Birth" class="sign-in-field-label">생년월일 8자리</label>
+	                  <input class="sign-in-field w-input" maxlength="256" name="userBirth" data-name="Your Birth" type="text" id="Your-Birth" pattern="[0-9]{8}" required=""></div>
+	                  <!-- 전화번호 -->
+	                  <div class="sign-in-single-field-wrap"><label for="Your-Tel" class="sign-in-field-label">휴대전화번호</label>
+	                  <input class="sign-in-field w-input" maxlength="256" name="userTel" data-name="Your Name" type="text" id="Your-Tel" pattern="[0-9]{11}" required=""></div>
+	                  <!-- 체크박스 -->
+	                  <div class="sign-in-single-field-wrap flex"><label class="w-checkbox sign-in-checkbox-wrap">
+					  <div class="w-checkbox-input w-checkbox-input--inputType-custom sign-in-checkbox"></div>
+	                  <input type="checkbox" name="checkbox" id="checkbox" data-name="Checkbox" style="opacity:0;position:absolute;z-index:-1" required=""><span class="sign-in-checkbox-label w-form-label" for="checkbox">I Agree To all The <a href="#" class="terms-conditions-link">Terms &amp; Conditions</a></span>
+	                  </label></div><input type="submit" data-wait="잠시만 기다려주세요..." class="sign-in-submit-button w-button" value="Sign Up">
                   <div class="sign-in-or-wrap">
                     <div class="or-border"></div>
                     <div class="or-text-wrap">
@@ -61,10 +75,10 @@
                 </div>
               </form>
               <div class="w-form-done">
-                <div>Thank you! Your submission has been received!</div>
+                <div>축하합니다. 회원가입이 완료되었습니다.</div>
               </div>
               <div class="w-form-fail">
-                <div>Oops! Something went wrong while submitting the form.</div>
+                <div>회원가입에 실패하였습니다.</div>
               </div>
             </div>
           </div>

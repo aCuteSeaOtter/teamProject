@@ -15,7 +15,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Unbounded:regular,500,600,700"]  }});</script>
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="/teamProject/resources/images/favicon.png" rel="shortcut icon" type="/teamProject/resources/image/x-icon">
+  <link href="/teamProject/resources/images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="/teamProject/resources/images/webclip.png" rel="apple-touch-icon">
 </head>
 <body>

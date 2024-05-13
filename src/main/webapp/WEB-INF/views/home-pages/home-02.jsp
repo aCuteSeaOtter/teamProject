@@ -87,7 +87,7 @@
                                 <a href="../upload-a-collection.do" class="dropdown-nav-link w-inline-block">
                                   <div>Upload Collections</div>
                                 </a>
-                                <a href="../become-an-../author.do" class="dropdown-nav-link w-inline-block">
+                                <a href="../become-an-author.do" class="dropdown-nav-link w-inline-block">
                                   <div>Become An Author</div>
                                 </a>
                                 <a href="../contact-us.do" class="dropdown-nav-link w-inline-block">
@@ -168,7 +168,7 @@
                     </div>
                   </nav>
                 </div>
-                <a href="../become-an-../author.do" class="inner-button mobile w-inline-block">
+                <a href="../become-an-author.do" class="inner-button mobile w-inline-block">
                   <div>Become An Author</div>
                   <div class="inner-button-bg"></div>
                 </a>
@@ -244,7 +244,7 @@
                 </div>
               </div>
             </div>
-            <a href="../become-an-../author.do" class="inner-button desktop w-inline-block">
+            <a href="../become-an-author.do" class="inner-button desktop w-inline-block">
               <div>Become An Author</div>
               <div class="inner-button-bg"></div>
             </a>
@@ -8633,7 +8633,7 @@
                   <div class="w-layout-grid features-gallery-2-columns-grid">
                     <div id="w-node-_65c31d63-0ff8-8709-b664-3b6c1b049931-dc30c16d" class="features-gallery-single-wrap">
                       <div class="features-gallery-image-wrap v2">
-                        <a href="../product.do" class="features-gallery-image-link w-inline-block"><img src="/teamProject/resources/images/v2-features-gallery-img-7.png" loading="lazy" sizes="(max-width: 767px) 96vw, (max-width: 1919px) 97vw, 1320px" srcset="/teamProject/resources/images/v2-features-gallery-img-7-p-500.png 500w, images/v2-features-gallery-img-7.png 760w" alt="" class="features-gallery-img"></a>
+                        <a href="../product.do" class="features-gallery-image-link w-inline-block"><img src="/teamProject/resources/images/v2-features-gallery-img-7.png" loading="lazy" sizes="(max-width: 767px) 96vw, (max-width: 1919px) 97vw, 1320px" srcset="/teamProject/resources/images/v2-features-gallery-img-7-p-500.png 500w, /teamProject/resources/images/v2-features-gallery-img-7.png 760w" alt="" class="features-gallery-img"></a>
                         <div class="features-gallery-overlay-wrap v2">
                           <div class="circle-button-wrap">
                             <a href="../product.do" class="circle-button w-inline-block"><img loading="lazy" src="/teamProject/resources/images/circle-button-icon.svg" alt="" class="circle-button-icon"></a>
@@ -8657,7 +8657,7 @@
                     </div>
                     <div id="w-node-c70d848b-b8dd-f49b-1f98-1ac73d508a5f-dc30c16d" class="features-gallery-single-wrap">
                       <div class="features-gallery-image-wrap v2">
-                        <a href="../product.do" class="features-gallery-image-link w-inline-block"><img src="/teamProject/resources/images/v2-features-gallery-img-8.png" loading="lazy" sizes="(max-width: 767px) 96vw, (max-width: 1919px) 97vw, 1320px" srcset="/teamProject/resources/images/v2-features-gallery-img-8-p-500.png 500w, images/v2-features-gallery-img-8.png 536w" alt="" class="features-gallery-img"></a>
+                        <a href="../product.do" class="features-gallery-image-link w-inline-block"><img src="/teamProject/resources/images/v2-features-gallery-img-8.png" loading="lazy" sizes="(max-width: 767px) 96vw, (max-width: 1919px) 97vw, 1320px" srcset="/teamProject/resources/images/v2-features-gallery-img-8-p-500.png 500w, /teamProject/resources/images/v2-features-gallery-img-8.png 536w" alt="" class="features-gallery-img"></a>
                         <div class="features-gallery-overlay-wrap v2">
                           <div class="circle-button-wrap">
                             <a href="../product.do" class="circle-button w-inline-block"><img loading="lazy" src="/teamProject/resources/images/circle-button-icon.svg" alt="" class="circle-button-icon"></a>
@@ -8871,7 +8871,7 @@
                     </div>
                     <div id="w-node-_87ffe05e-73b1-f4e4-bca1-a69e2a9fbd2e-dc30c16d" class="features-gallery-single-wrap">
                       <div class="features-gallery-image-wrap v2">
-                        <a href="../product.do" class="features-gallery-image-link w-inline-block"><img src="/teamProject/resources/images/v2-features-gallery-img-8.png" loading="lazy" sizes="(max-width: 767px) 96vw, (max-width: 1919px) 97vw, 1320px" srcset="/teamProject/resources/images/v2-features-gallery-img-8-p-500.png 500w, images/v2-features-gallery-img-8.png 536w" alt="" class="features-gallery-img"></a>
+                        <a href="../product.do" class="features-gallery-image-link w-inline-block"><img src="/teamProject/resources/images/v2-features-gallery-img-8.png" loading="lazy" sizes="(max-width: 767px) 96vw, (max-width: 1919px) 97vw, 1320px" srcset="/teamProject/resources/images/v2-features-gallery-img-8-p-500.png 500w, /teamProject/resources/images/v2-features-gallery-img-8.png 536w" alt="" class="features-gallery-img"></a>
                         <div class="features-gallery-overlay-wrap v2">
                           <div class="features-gallery-video-wrap">
                             <a href="../product.do" class="features-gallery-video-link w-inline-block">
@@ -9049,7 +9049,7 @@
                   <div class="w-layout-grid features-gallery-2-columns-grid">
                     <div id="w-node-_05929153-d18b-e5f0-8789-5743aebbce1a-dc30c16d" class="features-gallery-single-wrap">
                       <div class="features-gallery-image-wrap v2">
-                        <a href="../product.do" class="features-gallery-image-link w-inline-block"><img src="/teamProject/resources/images/v2-features-gallery-img-7.png" loading="lazy" sizes="(max-width: 767px) 96vw, (max-width: 1919px) 97vw, 1320px" srcset="/teamProject/resources/images/v2-features-gallery-img-7-p-500.png 500w, images/v2-features-gallery-img-7.png 760w" alt="" class="features-gallery-img"></a>
+                        <a href="../product.do" class="features-gallery-image-link w-inline-block"><img src="/teamProject/resources/images/v2-features-gallery-img-7.png" loading="lazy" sizes="(max-width: 767px) 96vw, (max-width: 1919px) 97vw, 1320px" srcset="/teamProject/resources/images/v2-features-gallery-img-7-p-500.png 500w, /teamProject/resources/images/v2-features-gallery-img-7.png 760w" alt="" class="features-gallery-img"></a>
                         <div class="features-gallery-overlay-wrap v2">
                           <div class="circle-button-wrap">
                             <a href="../product.do" class="circle-button-2 w-inline-block"><img loading="lazy" src="/teamProject/resources/images/circle-button-icon.svg" alt="" class="circle-button-icon"></a>
@@ -9512,7 +9512,7 @@
               <h2 class="section-title exclusive">Why We’re Different</h2>
             </div>
             <div class="button-wrapper">
-              <a href="../become-an-../author.do" class="primary-button redius-0px w-inline-block">
+              <a href="../become-an-author.do" class="primary-button redius-0px w-inline-block">
                 <div>Become An Author</div>
                 <div class="primary-button-bg"></div>
               </a>
@@ -10160,7 +10160,7 @@
               <h3 data-w-id="15409fdc-a162-953c-3515-3456ee5f8304" style="opacity:0" class="featured-gallery-card-title">Create a Marketplace or Sell Your Own Photos Using Zastock.</h3>
               <p data-w-id="15409fdc-a162-953c-3515-3456ee5f8306" style="opacity:0" class="features-gallery-card-details">Zastock makes it easy to create a site to sell your own photos using the easy digital downloads plugin or you can create marketplace and let anybody sell their photos with help from the frontend submissions extension for easy digital downloads.</p>
               <div data-w-id="a9131ec9-66d8-849a-37d8-e1e3682b5255" style="opacity:0" class="button-wrapper">
-                <a href="../become-an-../author.do" class="inner-button features-gallery v2 w-inline-block">
+                <a href="../become-an-author.do" class="inner-button features-gallery v2 w-inline-block">
                   <div>Become An Author</div>
                   <div class="inner-button-bg"></div>
                 </a>
@@ -10523,7 +10523,7 @@
                 <a href="../upload-a-collection.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Upload Collections</div>
                 </a>
-                <a href="../become-an-../author.do" class="single-footer-link w-inline-block">
+                <a href="../become-an-author.do" class="single-footer-link w-inline-block">
                   <div class="footer-link-text">Become An Author</div>
                 </a>
                 <a href="../blog.do" class="single-footer-link w-inline-block">
