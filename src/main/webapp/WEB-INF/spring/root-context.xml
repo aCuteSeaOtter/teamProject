@@ -9,7 +9,7 @@
 	<!-- ##### jdbc ##### -->
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" 	value="com.mysql.cj.jdbc.Driver"></property>
-		<property name="url" 				value="jdbc:mysql://localhost:3306/basic"></property>
+		<property name="url" 				value="jdbc:mysql://118.217.203.50/teamProject"></property>
 		<property name="username" 			value="scott"></property>
 		<property name="password" 			value="tiger"></property>
 	</bean>
@@ -24,7 +24,6 @@
 	  <property name="typeAliases">
 			<list>
 				<value>com.javaclass.domain.UserVO</value> <!-- UserVO -->
-				<value>com.javaclass.domain.BoardVO</value> <!-- UserVO -->
 			</list>
 	   </property> 
 	</bean>
