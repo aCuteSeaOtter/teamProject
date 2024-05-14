@@ -9,7 +9,7 @@
 <%-- response.sendRedirect("home-pages/home-01.do"); --%>
 
 잠깐동안 로그인페이지
-<% response.sendRedirect("authentication-pages/sign-in.do"); %>
+<% response.sendRedirect("authentication-pages/sign-up.do"); %>
 
 
 </body>
